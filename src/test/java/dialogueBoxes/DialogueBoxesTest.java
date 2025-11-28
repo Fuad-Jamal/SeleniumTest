@@ -40,6 +40,6 @@ public class DialogueBoxesTest extends BaseTest {
         var dialogPage = homePage.clickDialogue();
         dialogPage.launchModal();
         assertEquals(dialogPage.savedChanges(),"You chose: Save changes", "Incorrect dialogue result");
-        dialogPage.clickSaved();
+        dialogPage.clickSaved("iis");
     }
 }

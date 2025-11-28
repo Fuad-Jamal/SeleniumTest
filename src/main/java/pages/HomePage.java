@@ -41,4 +41,9 @@ public class HomePage {
         return new DialogueBoxesPage(driver);
 
     }
+    public WebformPage clickWebform(){
+        driver.findElement(By.xpath("/html/body/main/div/div[4]/div[1]/div/div/a[1]")).click();
+        return new WebformPage(driver);
+    }
+
 }

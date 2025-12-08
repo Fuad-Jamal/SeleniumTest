@@ -24,7 +24,7 @@ public void setUp() {
 }
     @AfterClass
     public void tearDown(){
-//        driver.quit();
+        driver.quit();
     }
 
 }
